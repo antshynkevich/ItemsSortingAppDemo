@@ -1,6 +1,6 @@
 package Models;
 
-public class Animal {
+public class Animal  implements GenericAbstractInterface {
     public enum EyesColor {
         BROWN, BLUE, GREEN, AMBER, HETEROCHROMIC
     }

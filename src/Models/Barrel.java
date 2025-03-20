@@ -1,6 +1,6 @@
 package Models;
 
-public class Barrel {
+public class Barrel implements GenericAbstractInterface {
     public enum BodyMaterial {
         WOOD, METAL, PLASTIC, CERAMIC
     }
